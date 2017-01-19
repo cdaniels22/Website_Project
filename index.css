@@ -1,7 +1,7 @@
 body {
     background-color: #e0e0e0;
-    margin: 15px;
     line-height: 25px;
+    padding: 15px;
 }
 
 .header-image {
@@ -44,14 +44,14 @@ li {
     font-weight: bold;
 }
 
-    li a {
-        display: block;
-        color: #000000;
-        padding: 8px 8px;
-        border-right: 1px solid #999999;
-    }
+li a {
+    display: block;
+    color: #000000;
+    padding: 8px 8px;
+    border-right: 1px solid #999999;
+}
 
-.section {
+.margin-bottom {
     margin-bottom: 25px;
 }
 
@@ -64,10 +64,10 @@ li {
     margin-bottom: 50px;
 }
 
-.section-3 {
+.borders {
     border-top: 1px solid #999999;
     border-bottom: 1px solid #999999;
-    margin-bottom: 25px;
+    display: flex;
 }
 
 .h4 {
@@ -75,9 +75,9 @@ li {
     margin-bottom: 25px;
 }
 
-    .h4 span {
-        font-weight: normal;
-    }
+.h4 span {
+    font-weight: normal;
+}
 
 h5 {
     line-height: 25px;
@@ -92,23 +92,18 @@ h5 {
     width: 100%;
 }
 
-.column-content {
-    margin: 25px 0px 25px 0px;
-}
-
 .blog-column {
     border-right: 1px solid #999999;
     padding: 25px 25px 0px 25px;
     border-left: 1px solid #999999;
 }
 
-.blog {
+.blog-divider {
     border-bottom: 1px solid #999999;
-    padding-bottom: 25px;
 }
 
-.blog-2 {
-    padding: 25px 0px 25px 0px;
+.padding-bottom {
+    padding-bottom: 25px;
 }
 
 .blog-img {
@@ -126,6 +121,10 @@ h5 {
     margin-bottom: 10px;
 }
 
+.columns {
+    padding: 25px 25px 0px 25px;
+}
+
 input[type="text"] {
     height: 25px;
     width: 200px;
@@ -136,8 +135,14 @@ input[type="email"] {
     width: 200px;
 }
 
-@media only screen and (max-width: 991px) {
+@media (max-width: 1024px) {
     .blog-column {
         border: none;
+    }
+}
+
+@media (max-width: 1750px) {
+    .carousel-indicators {
+        display: none;
     }
 }
