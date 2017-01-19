@@ -19,7 +19,7 @@
                 </div>
                 <div>
                     <input type="search" class="search" />
-                    <button class="button">SEARCH</button>
+                    <button class="btn btn-primary">SEARCH</button>
                 </div>
             </div>
         </div>
@@ -82,10 +82,10 @@
         <div class="col-md-4 blog-column">
             <h4 class="h4">From the Blog</h4>
             <div>
-                <h4 class="h4">Blog Post Title</h4>
-                <h5>December 3, 2016 by <a href="javascript: void(0)">John</a></h5>
+                <h4 class="h4" id="blog-title">Blog Post Title</h4>
+                <h5 id="blog-date">December 3, 2016 by <a href="javascript: void(0)" id="blog-author">John</a></h5>
             </div>
-            <div class="blog-divider margin-bottom">
+            <div id="blog-content" class="blog-divider margin-bottom">
                 <div class="margin-bottom">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL8Yhz9R_tTDza83H27GUmEHCF8StY94JyY7LHhR-cQRL020gw" class="blog-img" />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in rutrum felis, id bibendum magna.
                     Cras a vulputate elit. Nunc fringilla non nunc sit amet consequat. Etiam placerat bibendum odio, et accumsan risus pulvinar ut. Sed pharetra, ligula id accumsan tempus, diam libero mattis nisl, vel molestie nisi nunc ac lectus. Aenean
@@ -102,31 +102,21 @@
                 Aenean dictum neque quis rutrum fringilla. Aliquam vel odio et odio dapibus ornare. Mauris dolor purus,volutpat ac nisi ac, condimentum bibendum ligula...<a href="javascript: void(0)" class="pull-right">Read More</a>
             </div>
         </div>
-        <div class="col-md-4 columns">
+        <div  id="new-blog-post" class="col-md-4 columns">
             <h4 class="h4">New Blog</h4>
             <div>
-                <input type="text" class="form" placeholder=" Blog Title" />
+                <input type="text" id="new-title" class="form" placeholder=" So Title" />
             </div>
             <div>
-                <input type="text" class="form" placeholder=" Blog Date" />
+                <input type="text" id="new-date" class="form" placeholder=" Very Date" />
             </div>
             <div>
-                <input type="text" class="form" placeholder=" Your Name" />
-            </div>
-            <div>
-                <h5>Select blog image from your computer</h5>
-                <form action="" method="post" enctype="multipart/form-data" id="javascript: void(0)">
-                    <div class="form-inline margin-bottom">
-                        <div class="form-group">
-                            <input type="file" name="file" id="javascript: void(0)">
-                        </div>
-                    </div>
-                </form>
+                <input type="text" id="blog-author" class="form" placeholder=" Much Name" />
             </div>
             <div class="form-group">
-                <textarea class="form-control" id="" rows="5" placeholder="I Want Your Thoughts Inside Me"></textarea>
+                <textarea class="form-control" id="blog-content" rows="5" placeholder="Much Thoughts Very Blog So Words WOW"></textarea>
             </div>
-            <div><button class="button margin-bottom">SUBMIT</button></div>
+            <div><button id="post-blog" class="btn btn-primary margin-bottom">SUBMIT</button></div>
         </div>
     </div>
 

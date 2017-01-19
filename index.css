@@ -22,11 +22,6 @@ body {
     margin-right: 20px;
 }
 
-.button {
-    border-radius: 25px;
-    background-color: #fff;
-}
-
 .navbar {
     margin-top: 25px;
 }
@@ -122,6 +117,12 @@ h5 {
 
 .columns {
     padding: 25px 25px 0px 25px;
+}
+
+.btn {
+  color: red;
+  background-color: black;
+  border-radius: 25px;
 }
 
 input[type="text"] {
