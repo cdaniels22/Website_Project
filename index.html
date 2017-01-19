@@ -5,13 +5,13 @@
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!--My CSS-->
-    <link rel="stylesheet" type="text/css" href="./index.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 
-<body class="container-fluid">
-    <header class="row">
-        <div class="container-fluid">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiwhCzToMbD9HNJcY5ym18y61ebxNMVedKjEPgiHhxMa7NtIuX5Q" class="header-image" />
+<body>
+    <header class="col-md-12">
+        <div class="margin-bottom">
+            <img src="" class="header-image" />
             <div class="pull-right">
                 <div class="links pull-right">
                     <a href="javascript: void(0)">Contact Us</a>
@@ -33,7 +33,7 @@
             <li><a href="javascript: void(0)">Resources</a></li>
         </ul>
     </div>
-    <div class="row section">
+    <div class="row margin-bottom">
         <div class="col-md-8 col-sm-12">
             <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
                 <ol class="carousel-indicators">
@@ -52,12 +52,6 @@
                         <img src="https://pbs.twimg.com/media/Cu-2SzkWAAAzd7I.jpg" alt="Third Slide">
                     </div>
                 </div>
-                <a class="carousel-control left" href="#myCarousel" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                </a>
-                <a class="carousel-control right" href="#myCarousel" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                </a>
             </div>
         </div>
         <div class="col-md-4">
@@ -73,78 +67,70 @@
             <a href="javascript: void(0)" class="read-more">Read More</a>
         </div>
     </div>
-    <div class="border-section row flex">
-        <div class="col-md-4 column-content">
+    <div class="row margin-bottom borders">
+        <div class="col-md-4 columns">
             <h4 class="h4">Newsletter <span>| December, 2016</span></h4>
             <h4 class="h4">Newsletter Title</h4>
             <div>
                 <img src="http://vignette2.wikia.nocookie.net/supernatural/images/b/b5/MP_Slider_Season_10.png/revision/latest/scale-to-width-down/670?cb=20150706173305" class="news-letter-img" />
             </div>
-            <div class="section news-letter">
+            <div class="news-letter">
                 Mauris dolor purus,volutpat ac nisi ac, condimentum bibendum ligula. Sed nec finibus enim, ut rutrum ligula. Curabitur eget tristique ligula, mattis ultricies mauris. Donec quis accumsan quam, id rutrum ex. Aenean dictum neque quis rutrum fringilla. Aliquam
                 vel odio et odio dapibus ornare. Aliquam suscipit iaculis mi at euismod. Sed at dolor arcu. Aenean dictum neque quis rutrum fringilla...<a href="javascript: void(0)" class="pull-right">Read More</a>
             </div>
         </div>
         <div class="col-md-4 blog-column">
             <h4 class="h4">From the Blog</h4>
-            <!--<div>
-                <h4 class="h4" id="blogTitle"></h4>
-                <h5 class="section" id="blogDate"><a href="funtion blogAuthor()"></a></h5>
-            </div>
-            <div class="divider">
-                <img src="funtion blogImg()" class="blog-img" /><p id="blogText"></p><a href="javascript: void(0)" class="pull-right" id="blogAuthor"></a>
-            </div>-->
             <div>
                 <h4 class="h4">Blog Post Title</h4>
-                <h5 class="section">December 3, 2016 by <a href="javascript: void(0)">John</a></h5>
+                <h5>December 3, 2016 by <a href="javascript: void(0)">John</a></h5>
             </div>
-            <div class="divider">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL8Yhz9R_tTDza83H27GUmEHCF8StY94JyY7LHhR-cQRL020gw" class="blog-img" />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in rutrum felis, id bibendum magna.
-                Cras a vulputate elit. Nunc fringilla non nunc sit amet consequat. Etiam placerat bibendum odio, et accumsan risus pulvinar ut. Sed pharetra, ligula id accumsan tempus, diam libero mattis nisl, vel molestie nisi nunc ac lectus. Aenean
-                dictum neque quis rutrum fringilla. Aliquam vel odio et odio dapibus ornare. Mauris dolor purus,volutpat ac nisi ac, condimentum bibendum ligula...<a href="javascript: void(0)" class="pull-right">Read More</a>
+            <div class="blog-divider margin-bottom">
+                <div class="margin-bottom">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL8Yhz9R_tTDza83H27GUmEHCF8StY94JyY7LHhR-cQRL020gw" class="blog-img" />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in rutrum felis, id bibendum magna.
+                    Cras a vulputate elit. Nunc fringilla non nunc sit amet consequat. Etiam placerat bibendum odio, et accumsan risus pulvinar ut. Sed pharetra, ligula id accumsan tempus, diam libero mattis nisl, vel molestie nisi nunc ac lectus. Aenean
+                    dictum neque quis rutrum fringilla. Aliquam vel odio et odio dapibus ornare. Mauris dolor purus,volutpat ac nisi ac, condimentum bibendum ligula...<a href="javascript: void(0)" class="pull-right">Read More</a>
+                </div>
             </div>
-            <div class="blog">
-                <div>
-                    <h4 class="h4">Blog Post Title</h4>
-                    <h5 class="section">December 3, 2016 by <a href="javascript: void(0)">John</a></h5>
-                </div>
-                <div>
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl3PsoMG6pyjKsGDY_5bjYKXZLl61AeJz3ol_4gohWWDyhqJMnDQ" class="blog-img" />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in rutrum felis, id bibendum
-                    magna. Cras a vulputate elit. Nunc fringilla non nunc sit amet consequat. Etiam placerat bibendum odio, et accumsan risus pulvinar ut. Sed pharetra, ligula id accumsan tempus, diam libero mattis nisl, vel molestie nisi nunc ac lectus.
-                    Aenean dictum neque quis rutrum fringilla. Aliquam vel odio et odio dapibus ornare. Mauris dolor purus,volutpat ac nisi ac, condimentum bibendum ligula...<a href="javascript: void(0)" class="pull-right">Read More</a>
-                </div>
+            <div>
+                <h4 class="h4">Blog Post Title</h4>
+                <h5>December 3, 2016 by <a href="javascript: void(0)">John</a></h5>
+            </div>
+            <div class="margin-bottom">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl3PsoMG6pyjKsGDY_5bjYKXZLl61AeJz3ol_4gohWWDyhqJMnDQ" class="blog-img" />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in rutrum felis, id bibendum
+                magna. Cras a vulputate elit. Nunc fringilla non nunc sit amet consequat. Etiam placerat bibendum odio, et accumsan risus pulvinar ut. Sed pharetra, ligula id accumsan tempus, diam libero mattis nisl, vel molestie nisi nunc ac lectus.
+                Aenean dictum neque quis rutrum fringilla. Aliquam vel odio et odio dapibus ornare. Mauris dolor purus,volutpat ac nisi ac, condimentum bibendum ligula...<a href="javascript: void(0)" class="pull-right">Read More</a>
             </div>
         </div>
-        <div class="col-md-4 column-content">
-            <div class="column-content" display="flex">
-                <h4 class="h4">Write Blog</h4>
-                <div>
-                    <input type="text" class="form" placeholder=" Blog Title" />
-                </div>
-                <div>
-                    <input type="text" class="form" placeholder=" Blog Date" />
-                </div>
-                <div>
-                    <input type="text" class="form" placeholder=" Your Name" />
-                </div>
-                <div>
-                    <h5>Select blog image from your computer</h5>
-                    <form action="" method="post" enctype="multipart/form-data" id="javascript: void(0)">
-                        <div class="form-inline">
-                            <div class="form-group">
-                                <input type="file" name="file" id="javascript: void(0)">
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <div class="form-group column-content">
-                    <textarea class="form-control" id="" rows="5" placeholder="I Want Your Thoughts Inside Me"></textarea>
-                </div>
-                <div><button class="button">SUBMIT</button></div>
+        <div class="col-md-4 columns">
+            <h4 class="h4">New Blog</h4>
+            <div>
+                <input type="text" class="form" placeholder=" Blog Title" />
             </div>
+            <div>
+                <input type="text" class="form" placeholder=" Blog Date" />
+            </div>
+            <div>
+                <input type="text" class="form" placeholder=" Your Name" />
+            </div>
+            <div>
+                <h5>Select blog image from your computer</h5>
+                <form action="" method="post" enctype="multipart/form-data" id="javascript: void(0)">
+                    <div class="form-inline margin-bottom">
+                        <div class="form-group">
+                            <input type="file" name="file" id="javascript: void(0)">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" id="" rows="5" placeholder="I Want Your Thoughts Inside Me"></textarea>
+            </div>
+            <div><button class="button">SUBMIT</button></div>
         </div>
     </div>
-    <div class="container-fluid row">
+
+    <div class="col-md-12">
         <footer>
             <p>&copy; 2017 D-Money Productions | Boulder, CO | 666-666-6666</p>
             <p>
