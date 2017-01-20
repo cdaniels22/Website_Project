@@ -149,11 +149,12 @@ a {
 input[type="text"] {
     height: 25px;
     width: 200px;
+    border: 1px solid #189EF1;
+    border-radius: 4px;
 }
 
-input[type="email"] {
-    height: 25px;
-    width: 200px;
+.form-control {
+        border: 1px solid #189EF1;
 }
 
 @media (max-width: 1024px) {
